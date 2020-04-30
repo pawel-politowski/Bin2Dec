@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 h1 {
     text-align: center;
 }
@@ -7,3 +11,49 @@ h1 {
     justify-content: space-around;
     text-align: center;
 }
+
+.container {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.formContainer {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;   
+    text-align: center;   
+    justify-content: center;   
+}
+
+button {
+    border-style: solid;
+    border-radius: 2px;
+    border-width: 1px;
+    border-color: black;
+    background-color: #fcfcfcfc;
+    width: 125px;
+    height: 35px;  
+    background-color: rgb(51, 172, 219); 
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(216, 205, 48);
+}
+
+input {
+    border-style: solid;
+    border-radius: 2px;
+    border-width: 1px;
+    background-color: #fcfcfcfc;
+    height: 35px;
+    padding-left: 5px;   
+}
+
+label {
+    padding: 10px;
+}
+ 
