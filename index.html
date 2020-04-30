@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Bin2Dec && Dec2Bin</h1>
+    <div class="mainContainer">        
+        <div class="container1">
+            <h3>Binary to Decimal Converter</h3>
+            <form>
+                <label>Binary:</label>
+                <input id="binaryInput" type="text" placeholder="Enter binary here!" onchange="convertBinToDec()"/>
+                <button onclick="convertBinToDec()">Convert Bin2Dec</button>
+                <label>Decimal:</label>
+                <input type="text" id="decimalOutput" readonly />
+            </form>
+            </form>
+        </div>
+        <div class="container2">
+            <h3>Decimal to Binary Converter</h3>
+            <form>
+                <label>Decimal:</label>
+                <input id="decimalInput" type="text" placeholder="Enter decimal here!" onchange="convertDecToBin()"/>
+                <button onclick="convertDecToBin()">Convert Dec2Bin</button>
+                <label>Binary:</label>
+                <input type="text" id="binaryOutput" readonly />
+            </form>
+        </div>
+    </div>
+        <script src="script.js"></script>
+</body>
+</html>
