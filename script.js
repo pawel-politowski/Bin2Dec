@@ -1,3 +1,4 @@
+// bin to dec
 function convertBinToDec() {
     const binary = document.querySelector('#binaryInput').value;
     if (binary === '') return alert('Please, enter a binary number');
@@ -9,6 +10,8 @@ function convertBinToDec() {
     return true
 }
 
+
+//dec to bin
 function convertDecToBin() {
     const decimal2 = document.querySelector('#decimalInput').value;
     if (decimal2 === '' || typeof Number(decimal2) !== "number") {return alert('Please, enter a decimal number')};
